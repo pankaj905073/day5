@@ -1,0 +1,17 @@
+.container{
+    width: 100%;
+    min height: 100vh
+    background-color: yellow;
+    dispay: flex;
+    gap:20px;
+    flex-wrap:wrap;
+    /*flex-direction: columb; */
+    justify-content:space between;
+    .box{
+        width: 30%;
+        height: 100%;
+        border: 3px solid green;
+        flex-shrink: 0;
+
+    }
+}
